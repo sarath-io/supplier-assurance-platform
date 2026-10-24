@@ -1,0 +1,13 @@
+
+package com.supplierassurance.risk.domain;
+
+public enum RiskFactorType {
+    REGISTRATION_INACTIVE,
+    REGISTRATION_NOT_FOUND,
+    COMPANY_NAME_MISMATCH,
+    ADDRESS_MISMATCH,
+    WEBSITE_UNREACHABLE,
+    INVALID_HTTPS,
+    RECENTLY_REGISTERED,
+    OTHER
+}

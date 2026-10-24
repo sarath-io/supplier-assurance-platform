@@ -1,0 +1,9 @@
+
+# Exclude duplicate local backend workspace
+/backend/bin/
+
+# IDE metadata
+.idea/
+
+# Maven build output
+**/target/
